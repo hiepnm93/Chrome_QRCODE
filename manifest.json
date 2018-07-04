@@ -1,0 +1,27 @@
+{
+    "name": "Qrcode URL",
+    "version": "1.0.1",
+    "description": "Build an HiepNM!",
+    "manifest_version": 2,
+    "icons": {
+        "16": "images/icon-16.png",
+        "128": "images/icon-128.png"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "page_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/icon-16.png",
+            "128": "images/icon-128.png"
+        }
+    },
+    "permissions": [
+        "activeTab",
+        "declarativeContent"
+    ]
+}
